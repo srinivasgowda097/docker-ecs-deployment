@@ -30,7 +30,12 @@
         }
       ],
       "command": [],
-      "portMappings": [],
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ],
       "volumesFrom": [],
       "links": [],
       "mountPoints": [
